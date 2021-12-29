@@ -21,16 +21,24 @@ async function start() {
       // Splitting line on this invisble character... probably a tab?
       csvLine = csvLine.split('	');
 
+      if (csvLine[0] == 'Project') {
+        return resolve();
+      }
+
+      if (csvLine[0] == 'Total') {
+        return resolve();
+      }
+
       // Verify line format.
-      if (csvLine.length != 4) {
+      if (csvLine.length != 9) {
         return resolve();
       }
 
       // Fill entry.
-      $('#quickentry_date_value').val(csvLine[1].split(' ')[0]);
-      $('#hashtags_description').val(csvLine[0] + ' - ' + csvLine[3]);
+      $('#quickentry_date_value').val(csvLine[5].split(' ')[0]);
+      $('#hashtags_description').val(csvLine[2] + ' - ' + csvLine[3] + ' - ' + csvLine[8]);
       $('#client_input').val(project);
-      $('#time_input').val(csvLine[2]);
+      $('#time_input').val(csvLine[7]);
       var blurEvt = new Event('blur');
       $('#time_input')[0].dispatchEvent(blurEvt);
 

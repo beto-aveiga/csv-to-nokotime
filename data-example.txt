@@ -1,3 +1,7 @@
-ISSUE-001	2021-12-01 04:56:00	4	DESCRIPTION ONE
-ISSUE-002	2021-12-01 08:24:00	0.5	DESCRIPTION TWO
-ISSUE-003	2021-12-01 10:08:26	1.5	DESCRIPTION THREE
+Project	Issue Type	Key	Summary	Priority	Date Started	Display Name	Time Spent (h)	Work Description
+Some Project	Task	ISSUE-001	Summary one	Normal	2021-12-27 12:35:50	Your Name	1.5	Work Description 001
+Some Project	Task	ISSUE-002	Summary two	Normal	2021-12-28 14:29:21	Your Name	0.5	Work Description 002
+Some Project	Task	ISSUE-003	Summary three	Normal	2021-12-27 10:09:47	Your Name	1	Work Description 003
+Some Project	Task	ISSUE-004	Summary four	Normal	2021-12-27 18:56:00	Your Name	2	Work Description 004
+Some Project	Task	ISSUE-005	Summary five	Normal	2021-12-28 12:55:23	Your Name	1.25	Work Description 005
+Total							6.25
