@@ -9,8 +9,9 @@ Imports time into Nokotime from a Jira exported CSV, assuming all the logged tim
 - Copy everything. See `data-example.txt` on this repo.
 - Visit Nokotime and login.
 - Open the console and run `main.js`.
-- Paste the values in the task description.
-- Select a client.
+- Paste everything in the task description.
+- Ensure time is empty.
+- Select the client for the hours to be logged in bulk.
 - Click `LOG IT`.
 
 ### Issues
