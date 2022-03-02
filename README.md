@@ -6,8 +6,8 @@ Imports time into Nokotime from a Jira exported CSV, assuming all the logged tim
 ![Importing from JIRA to Nokotime](screenshot.jpg)
 
 ### Instructions
-- Export a group of hours from one client in the Jira timesheet.
-- Open your CSV file with LibreOffice.
+- CSV Export a group of hours from one client in the Jira timesheet.
+- Open your CSV file with something like LibreOffice.
 - Copy everything. See `data-example.txt` on this repo.
 - Visit Nokotime and login.
 - Open the console and run `main.js`.
