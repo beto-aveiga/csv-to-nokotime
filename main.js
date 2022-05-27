@@ -1,3 +1,5 @@
+// @TODO: avoid tags because Noko doesn't like custom tags.
+
 // Warning: no elegant things on this script.
 // Just for fun, and to avoid boredness logging hours in 2 systems.
 
